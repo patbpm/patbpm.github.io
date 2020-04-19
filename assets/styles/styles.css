@@ -2,17 +2,20 @@
 
 /*********** Global Styles********/
 
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Lato", sans-serif !important;
 	font-weight: 900 !important;
 }
 
 .wrapper {
-		background: rgb(165, 236, 154);
+		background: rgba(255, 103, 68, 0.91);
 }
 
 .img-circle {
 		border-radius: 20%;
+		width:50%;
+  		height:50%;
 }
 
 .my-button {
@@ -107,12 +110,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /*** Experience ***/
 #experience {
-	background-color: #4c6d86;
+	background-color: #eaeff3;
 	padding: 6em 4em 5.6em;
 }
 
 #experience h2 {
-	color: #fff;
+	color: #FF6945;
 	margin-bottom: .7em;
 }
 
@@ -127,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #experience h3 {
-	color: #fff;
+	color: #767779;
 }
 
 .experience-topics p {
@@ -207,10 +210,11 @@ h1, h2, h3, h4, h5, h6 {
 /*** teaching ***/
 #teaching {
 	padding: 6em 4em 3em;
+	background-color: #eaeff3;
 }
 
 #teaching h2 {
-	color: #595959;
+	color: #FF6945;
 }
 
 #teaching .tag-line {
@@ -300,3 +304,56 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
 	color: #7d7d7d;
 }
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+
+.avatar {
+	width: 150px;
+	height: 150px;
+	box-sizing: border-box;
+	border: 5px white solid;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 3s ease-in-out infinite;
+	img { width: 100%; height: auto; }
+}
+
+.design {
+	position: relative;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-size: 0.6em;
+	letter-spacing: 2px;
+	overflow: hidden;
+	background: linear-gradient(90deg, #000, #fff, #000);
+	background-repeat: no-repeat;
+	background-size: 80%;
+	animation: animate 5s linear infinite;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: rgba(187, 9, 9, 0);
+  }
+  
+  @keyframes animate {
+	0% {
+	  background-position: -500%;
+	}
+	100% {
+	  background-position: 500%;
+	}
+  }

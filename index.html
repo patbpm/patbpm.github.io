@@ -12,28 +12,28 @@
 	<link rel="stylesheet" href="assets/styles/styles.css">
 </head>
 
-<body>
+<body >
 	<div class="container">
 		<div class="wrapper">
 			<div class="thin-bar">
 			</div>
 		
-			<section id="about">
+			<section id="about" >
 				<div class="row">
-					<div class="small-12 large-8 large-offset-2 columns text-left">
-						<img class="img-circle" src="assets/images/D-Patrick.JPG" alt="headshot">
-						<div class="details">
+					<div class="small-12 large-8 large-offset-2 columns text-center">
+						<img class="img-circle avatar" src="assets/images/D-Patrick.JPG" alt="headshot">
+						<div class="details design ">
 							<h2 >Hi, I'm Patrick. I love coding and creating<br> <span id="writing-text"><span></h2>
 						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="small-12 column">
+				<div class="row text-center">
+					<div class="">
 						<div class="cta text-center">
 							<a class="my-button cta-button expand form-button" href="mailto:patbpm1@gmail.com">Get In Touch</a>
 						</div>
 					</div>
-					<div class="small-12 column">
+					<div class=" ">
 						<div class="my-arrow-div text-center">
 							<a href="https://github.com/patbpm"><i class="fa fa-github-alt fa-2x"></i></a>
 							<a href=""><i class="fa fa-youtube fa-2x"></i></a>
@@ -45,146 +45,170 @@
 		
 		
 			<section id="experience">
-	
-				<div class="row column">
-					<div class="small-12">
-						<h2 class="text-center">My Experience</h2>
-						<p class="text-center tag-line">Specialist in need. Generalist at heart.</p>
+				<h2 class="text-center">My Skills</h2>
+				<div class="card">
+					<h5 class="card-header text-center">Specialist in need. Generalist at heart.</h5>
+					<div class="card-body">
+						<div class=" row text-center"> <!-- odd -->
+							<div class="col-md-4 mb-5 p-3 experience-topics text-center">
+								
+								<i class="fi-laptop"></i>
+								<h3>Front-end</h3>
+								<ul>
+									<li>html(5)</li>
+									<li>css(3)</li>
+									<li>Javascript</li>
+									<li>Jquery</li>
+									<li>Bootstrap</li>
+									<li>Api </li>
+								</ul>
+							</div>
+							<div class="col-md-4 mb-5 p-3 experience-topics text-center">
+								
+								<i class="fi-database"></i>
+								<h3>Back-end</h3>
+								<ul>
+									<li>NodeJS</li>
+									<li>NPM</li>
+									<li>SQL</li>
+									<li>Restful Web Services</li>
+									<li>Django | Python</li>
+								</ul>
+							</div>
+							<div class="col-md-4 mb-5 p-3 experience-topics text-center">
+								
+								<i class="fi-star"></i>
+								<h3>Tools</h3>
+								<ul>
+									<li>VS Code</li>
+									<li>Github</li>
+									<li>Git</li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="small-12 medium-4 columns text-center experience-topics">
-						<i class="fi-laptop"></i>
-						<h3>Front-end</h3>
-						<ul>
-							<li>html(5)</li>
-							<li>css(3)</li>
-							<li>Javascript</li>
-							<li>Jquery</li>
-							<li>Bootstrap</li>
-							<li>Angular</li>
-							<li>Api </li>
-						</ul>
-					</div>
-					<div class="small-12 medium-4 columns text-center experience-topics">
-						<i class="fi-database"></i>
-						<h3>Back-end</h3>
-						<ul>
-							<li>NodeJS</li>
-							<li>NPM</li>
-							<li>SQL</li>
-							<li>Restful Web Services</li>
-							<li>Django | Python</li>
-						</ul>
-					</div>
-					<div class="small-12 medium-4 columns text-center experience-topics">
-						<i class="fi-star"></i>
-						<h3>Tools</h3>
-						<ul>
-							<li>VS Code</li>
-							<li>Github</li>
-							<li>Git</li>
-						</ul>
+			</section>
+					
+			<section id="work">
+				<h2 class="text-center">Projects</h2>
+				<div class="card">
+					<h5 class="card-header text-center">Here are few of my personal projects.</h5>
+					<div class="card-body">
+						<div class=" row work-row text-center"> <!-- odd -->
+							<div class="col-md-6 mb-5 p-3">
+								
+								<a href="/"><img src="assets/images/Foodtech.JPG" class="card-img-top img-circle img-fluid" alt="Actor Picture" onerror="this.src='https://dummyimage.com/600x900/ababab/ffffff.png&amp;text=+NO+IMAGE'"></a>
+								<div class="card-body details details-ftm">
+									<h3>Agro Whizz</h3>
+									<p class="platform">Web</p>
+									<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
+									<p>A web app with a gooal to promote food quality and safety</p>
+									<a class="my-button" target="_blank" href="/">Visit Website</a>
+								</div>
+								
+							</div>
+							<div class="col-md-6 mb-5 p-3">
+								
+								<a href="http://moviehub2.herokuapp.com/"><img src="assets/images/Moviehub.JPG" class="card-img-top img-circle" alt="Actor Picture" onerror="this.src='https://dummyimage.com/600x900/ababab/ffffff.png&amp;text=+NO+IMAGE'"></a>
+								<div class="card-body details details-ftm">
+									<h3>Movie Hub</h3>
+									<p class="platform">Web</p>
+									<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
+									<p>A movie web app that use TMDB Api to provide info on movie, series and actors</p>
+									<a class="my-button" target="_blank" href="http://moviehub2.herokuapp.com/">Visit Website</a>
+								</div>
+								
+							</div>
+							
+						</div>
+						<div class=" row work-row text-center"> <!-- odd -->
+							<div class="col-md-6 mb-5 p-3">
+								
+								<a href="https://convid19estimator.herokuapp.com/"><img src="assets/images/Coronavirus.JPG" class="card-img-top img-circle" alt="Actor Picture" onerror="this.src='https://dummyimage.com/600x900/ababab/ffffff.png&amp;text=+NO+IMAGE'"></a>
+								<div class="card-body details details-ftm">
+									<h3>COVID19 ESTIMATOR</h3>
+									<p class="platform">Web</p>
+									<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
+									<p>A web and Api that estimate the impact of Convid19 virus</p>
+									<a class="my-button" target="_blank" href="https://convid19estimator.herokuapp.com/">Visit Website</a>
+								</div>
+								
+							</div>
+							<div class="col-md-6 mb-5 p-3">
+								
+								<a href="/"><img src="assets/images/Datascience.JPG" class="card-img-top img-circle" alt="Actor Picture" onerror="this.src='https://dummyimage.com/600x900/ababab/ffffff.png&amp;text=+NO+IMAGE'"></a>
+								<div class="card-body details details-ftm">
+									<h3>DATA SCIENCE PROJECT</h3>
+									<p class="platform">Web</p>
+									<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
+									<p>A list of few of my data science projects</p>
+									<a class="my-button" target="_blank" href="/">Visit Website</a>
+								</div>
+								
+							</div>
+							
+						</div>
+						
 					</div>
 				</div>
+				
 	
+				
 			</section>
 		
-				<section id="work">
-					<h2 class="text-center">Work</h2>
-					<div class="row">
-						<p class="text-center tag-line">Here are few of my former clients.</p>
-					</div>
-		
-		
-					<div class="row work-row"> <!-- odd -->
-						<div class="small-12 medium-6 medium-push-6 columns">
-							<img src="assets/images/hunter-cole-portfolio-image.png" alt="">
-						</div>
-						<div class="small-12 medium-5 medium-pull-7 columns">
-							<div class="details details-ftm">
-								<h3>Agro Whizz</h3>
-								<p class="platform">Web</p>
-								<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
-								<p>An internationally recognized Scientist and Artist from Loyola University of Chicago.</p>
-								<a class="my-button" target="_blank" href="http://huntercole.org">Visit Website</a>
+			<section id="teaching">
+				<h2 class="text-center">Certificates</h2>
+				<div class="card">
+					<h5 class="card-header text-center">In the last couple of years, I've study many programming course in person and remotely. Here are some of the domains I've studied</h5>
+					<div class="card-body">
+						<div class=" row work-row text-center"> <!-- odd -->
+							<div class="col-md-6 mb-5 p-3">
+								
+								<a href="/"><img src="assets/images/Foodhtech.JPG" class="card-img-top img-circle img-fluid" alt="Actor Picture" onerror="this.src='https://dummyimage.com/600x900/ababab/ffffff.png&amp;text=+NO+IMAGE'"></a>
+								<div class="card-body details details-ftm">
+									<h3>Python</h3>
+									<p class="platform">Web</p>
+									<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
+									<p>An internationally recognized Scientist and Artist from Loyola University of Chicago.</p>
+									<a class="my-button" target="_blank" href="http://huntercole.org">Visit Website</a>
+								</div>
+							</div>
+							<div class="col-md-6 mb-5 p-3">
+								
+								<a href="/"><img src="assets/images/Foodhtech.JPG" class="card-img-top img-circle img-fluid" alt="Actor Picture" onerror="this.src='https://dummyimage.com/600x900/ababab/ffffff.png&amp;text=+NO+IMAGE'"></a>
+								<div class="card-body details details-ftm">
+									<h3>Data Science</h3>
+									<p class="platform">Web</p>
+									<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
+									<p>An internationally recognized Scientist and Artist from Loyola University of Chicago.</p>
+									<a class="my-button" target="_blank" href="http://huntercole.org">Visit Website</a>
+								</div>
 							</div>
 						</div>
 					</div>
-		
-					<div class="row work-row"> <!-- even -->
-						<div class="small-12 medium-6 columns">
-							<img src="assets/images/ftm-site.png" alt="">
-						</div>
-						<div class="small-12 medium-5 medium-offset-1 columns">
-							<div class="details details-ftm">
-								<h3>Movie Hub</h3>
-								<p class="platform">Web</p>
-								<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
-								<p>FreshTechMaids is a house maid service company.</p>
-								<a class="my-button" target="_blank" href="http://www.freshtechmaids.com">Visit Website</a>
-							</div>
-						</div>
+				</div>
+				
+			</section>
+	
+			<section id="footer-cta">
+				<h2 class="text-center">Wanna work with me?</h2>
+				<p></p>
+				<div class="row text-center">
+					<div class="small-12 medium-8 medium-offset-2 columns">
+						<p class="text-center">I'm currently available for work.</p>
 					</div>
-		
-					<div class="row work-row"> <!-- odd -->
-						<div class="small-12 medium-6 medium-push-6 columns">
-							<img src="assets/images/sykora-kitchens.png" alt="">
-						</div>
-						<div class="small-12 medium-5 medium-pull-7 columns">
-							<div class="details details-ftm">
-								<h3>Movie Stats</h3>
-								<p class="platform">Web</p>
-								<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
-								<p>A European kitchens and cabinets manufacturer.</p>
-								<a class="my-button" target="_blank" href="http://www.sykorakitchens.com">Visit Website</a>
-							</div>
-						</div>
+					<div class="small-12 columns" id="startButtonDiv">
+						<a class="my-button form-button" href="mailto:patbpm1@gmail.com">Start Now</a>
 					</div>
-		
-		
-		
-		
-		
-		
-		
-		
-		
-				</section>
-		
-				<section id="teaching">
-					<h2 class="text-center">Teaching</h2>
-					<div class="row">
-						<div class="small-12 medium-8 medium-offset-2">
-							<p class="text-center tag-line">In the last couple of years, I've taught programming to hundreds of students both privately in person and remotely. Here are some of the domains I've helped students with...</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="small-12 medium-8 medium-offset-2 columns">
-							<div class="teaching-domains">
-							</div>
-						</div>
-					</div>
-				</section>
-		
-				<section id="footer-cta">
-					<h2 class="text-center">Wanna work with me?</h2>
-					<p></p>
-					<div class="row text-center">
-						<div class="small-12 medium-8 medium-offset-2 columns">
-							<p class="text-center">I'm currently available for work.</p>
-						</div>
-						<div class="small-12 columns" id="startButtonDiv">
-							<a class="my-button form-button" href="mailto:tenzinphuljung7@gmail.com">Start Now</a>
-						</div>
-					</div>
-				</section>
+				</div>
+			</section>
 		
 				<footer id="footer">
 					<div class="row text-center">
 						<div class="small-12 medium-6 medium-offset-3 columns">
-							<p id="logo">TP</p>
-							<p id="copyright">Copyright &copy; 2017 | Tenzin Phuljung</p>
+							<p id="logo">PB</p>
+							<p id="copyright">Copyright &copy; 2020 | Patrick Bope/p>
 						</div>
 					</div>
 				</footer>
@@ -194,7 +218,7 @@
 
 
 	</div>
-	<script src="assets/scripts/app.js" charset="utf-8"></script>
+	<script src="assets/scripts/app.js" charset="utf-8"></script>  
 </body>
 
 </html>
